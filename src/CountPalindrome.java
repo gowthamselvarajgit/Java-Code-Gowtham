@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class CountPalindrome {
     public static boolean checkPalindrome(int num){
         int copy = num;
