@@ -37,7 +37,7 @@ public class LuckyNumbersMatrix {
         ArrayList<Integer> luckyNumbers = new ArrayList<>();
         for (int min : rowMin) {
             if (columnMax.contains(min)) {
-                luckyNumbers.add(min);  // Add if it's both row min and column max
+                luckyNumbers.add(min);
             }
         }
         System.out.println(luckyNumbers);
