@@ -1,5 +1,4 @@
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Scanner;
 
@@ -23,6 +22,7 @@ public class QualifiedForTest {
         }
 
         Arrays.sort(diff,Collections.reverseOrder());
+
         int sum = 0;
         for (int index = 0; index < calcForSub; index++) {
             sum = sum + diff[index];
